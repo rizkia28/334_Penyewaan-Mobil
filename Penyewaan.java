@@ -10,9 +10,7 @@ public class Penyewaan {
     //konstruktor overloading penyewaan manual
     public Penyewaan(int Manual){
         this.Manual=Manual;
-        this.hari=hari;
-        int byr = Manual*harga;
-        System.out.println("sewa perhari : "+byr);
+        System.out.println("sewa perhari : "+Manual);
     }
     //konstruktor overloading penyewaan matic
     public Penyewaan(int Matic, int hari){
